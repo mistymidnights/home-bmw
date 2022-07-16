@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url("https://media.discordapp.net/attachments/701164137081733201/997848790566436915/2023-BMW-X1-xDrive28i-09.png?width=1440&height=660");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+header nav ul {
+    display: flex;
+    margin-left: 130px;
+}
+
+.logo-bmw img {
+    height: 91px;
+    padding-top: 21px;
+    margin-right: 146px;
+    background-color: white;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: white;
+    border-bottom-style: solid;
+    border-width: 1px;
+    width: 80%;
+    margin-left: 129px;
+}
+
+header ul li{
+    margin: 20px;
+    list-style: none;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.inner-title {
+    position: absolute;
+    top: 609px;
+    left: 86px;
+}
+
+
+.inner-title h1, h2{
+    color: white;
+    font-size: 30px;
+}
+
+.inner-title h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.inner-title button {
+    background-color: #1c68d5;
+    font-size: 16px;
+    padding: 20px 87px 20px 78px;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(27, 27, 53);
+}
+
+.models-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.models{
+    display: flex;
+}
+
+.models ul {
+    display: flex;
+    justify-content: center;
+}
+
+.models ul li {
+    margin: 36px;
+    list-style: none;
+    color: grey;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.model-selection {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.model-car{
+    margin: 40px;
+}
+
+.model-car img{
+    height: 150px;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 92px;
+}
+
+.inner-article img{
+    height: 170px;
+}
+
+.inner-article {
+    width: 298px;
+    padding: 20px;
+    border-style: solid;
+    margin-right: 20px;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+.inner-article h2{
+    color: black;
+}
+
+.inner-article p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.inner-article a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* ---------------------- */
+
+.videos-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.videos-container h2{
+    color: black;
+}
+
+.videos-container p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.videos-container a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.videos-container img{
+    height: 350px;
+}
+
+.video {
+    width: 634px;
+    border-style: solid;
+    margin-right: 20px;
+    border-width: 1px;
+    border-color: lightgrey;
+    padding: 20px;
+}
+
+.configurador {
+    display: flex;
+    justify-content: center;
+}
+
+.configurador button {
+    margin: 20px;
+    background-color: lightgrey;
+    color: darkslategrey;
+    font-weight: bold;
+    border: none;
+    font-size: 14px;
+    padding: 38px 53px 38px 53px;
+}
+
+.configurador button:hover{
+    background-color:  grey;;
+    color: white;
+}
+
+.menu-final {
+    display: flex;
+    background-color: #b1b1b1;
+    padding: 40px;
+    justify-content: center;
+}
+
+.menu-final h1{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.menu-final ul{
+    list-style: none;
+    margin: 80px;
+}
+
+.menu-final a{
+    color: #494949;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px 10px 200px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: #0079f2;
+}
+
+footer ul li{
+    margin: 20px;
+}
+
+footer p{
+    display: flex;
+    align-items: center;
+}
